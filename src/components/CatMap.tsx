@@ -34,6 +34,7 @@ export const MapCats: React.FC = () => {
       const { data: facts } = await getFactsData(1);
       const data = await getImageData();
       console.log(1);
+      console.log(12);
 
       setCats((oldCats) =>
         oldCats?.map((cat, index) => ({
