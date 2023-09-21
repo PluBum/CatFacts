@@ -33,6 +33,7 @@ export const MapCats: React.FC = () => {
       setCats(parameters);
       const { data: facts } = await getFactsData(1);
       const data = await getImageData();
+      console.log(1);
 
       setCats((oldCats) =>
         oldCats?.map((cat, index) => ({
